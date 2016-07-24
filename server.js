@@ -1,14 +1,9 @@
-# thanst-router:
-Lightweight routing module for NodeJS web application
-
-## A minimal application:
-```javascript
 'use strict';
 
 const http = require('http');
-const Router = require('thanst-router');
+const Router = require('./lib/router');
 
-let routes = new Router('/'); // Passing in base url
+let routes = new Router('/');
 
 routes.get('/', (req, res) => {
   homepageGet(req, res);
@@ -25,4 +20,3 @@ function homepageGet(req, res) {
 http.createServer(routes.init()).listen(3000, () => {
   console.log('Server running at port 3000');
 });
-```
