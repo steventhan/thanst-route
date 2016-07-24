@@ -1,14 +1,14 @@
 {
-  "name": "thanst-route",
-  "version": "0.0.1",
+  "name": "thanst-router",
+  "version": "0.0.4",
   "description": "Simple nodejs routing",
-  "main": "server.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "mocha test",
-    "start": "node index.js"
+    "start": "node ./lib/router.js"
   },
   "repository": {
     "type": "git",
