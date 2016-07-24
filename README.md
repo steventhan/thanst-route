@@ -1,7 +1,7 @@
 # thanst-router:
 Lightweight routing module for NodeJS web application
 
-## Use example:
+## A minimal application:
 ```javascript
 'use strict';
 
