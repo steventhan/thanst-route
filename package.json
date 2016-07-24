@@ -1,0 +1,27 @@
+{
+  "name": "thanst-route",
+  "version": "1.0.0",
+  "description": "Simple nodejs routing",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steventhan/thanst-route.git"
+  },
+  "author": "steven@thanst.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steventhan/thanst-route/issues"
+  },
+  "homepage": "https://github.com/steventhan/thanst-route#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
