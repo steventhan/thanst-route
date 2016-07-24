@@ -1,11 +1,12 @@
-# thanst-route: Lightweight routing module for NodeJS web application
+# thanst-router:
+Lightweight routing module for NodeJS web application
 
 ## Use example:
 ```javascript
 'use strict';
 
 const http = require('http');
-const Router = require('./lib/router');
+const Router = require('thanst-router');
 
 let routes = new Router('/'); // Passing in base url
 
