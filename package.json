@@ -1,6 +1,6 @@
 {
   "name": "thanst-router",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Simple nodejs routing",
   "main": "index.js",
   "directories": {
